@@ -3,10 +3,16 @@ This repository contains all NASM code written for the class. All projects on th
 
 # Running the code
 
-## To build the app run
+- First `cd` into the respective folder ie.
 
 ```sh
-  nasm -f elf32 add.asm -o add.o
+  cd hello-world
+```
+
+- Then run
+
+```sh
+  nasm -f elf32 hello-world.asm -o hello-world.o
 ```
 
 - `nasm`: This is the command to invoke the NASM (Netwide Assembler) compiler.
